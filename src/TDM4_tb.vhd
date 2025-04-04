@@ -125,6 +125,8 @@ begin
 		w_reset <= '0';
 		
 		wait; -- let the TDM do its work
+		
+		
 	end process;	
 	-----------------------------------------------------	
 	
