@@ -84,7 +84,7 @@ architecture test_bench of TDM4_tb is
 begin
 	-- PORT MAPS ----------------------------------------
 	-- map ports for any component instances (port mapping is like wiring hardware)
-	uut_inst : TDM4 
+	uut_inst : entity work.TDM4 
 	generic map ( k_WIDTH =>  k_IO_WIDTH)
 	port map ( 
        i_clk   => w_clk,
